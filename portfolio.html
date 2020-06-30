@@ -37,15 +37,26 @@
     <title>Marian's Portfolio - Projects</title>
   </head>
   <body>
-    <!-- Header -->
-    <header class="container header-wrap">
-      <div class="row header">
-        <div class="col h1">
-          <h1>Marian Gude</h1>
-        </div>
-        <nav class="col">
-          <!-- Navigation -->
-          <!-- put navigation bootstrap here  -->
+    <!-- Header from bootstrap with navs-->
+    <header class="header-wrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
+        <h1>Marian Gude</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="nav justify-content-end">
             <li class="nav-item" class="nav-options">
               <a
@@ -63,12 +74,12 @@
               <a class="nav-link nav-link-edit" href="contact.html">Contact</a>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <!-- add an area for portfolio links to the different projects from class  -->
-    <main class="container" id="main-section portfolio-section">
+    <main class="container" id="main-section">
       <h2>Portfolio</h2>
       <hr />
       <div class="row row-cols-1 row-cols-md-2">

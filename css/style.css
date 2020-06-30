@@ -28,6 +28,10 @@ header {
   align-content: center;
 }
 
+#pportfolio-section {
+  margin-top: 50px;
+}
+
 h1 {
   color: rgb(79, 141, 79);
   display: inline;
@@ -80,6 +84,10 @@ hr {
 .header-wrap {
   height: auto;
   width: 100%;
+}
+
+.header-wrap-2 {
+  background-color: rgb(183, 202, 183);
 }
 
 /* special css for small screen  */
