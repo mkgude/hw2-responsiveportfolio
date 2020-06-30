@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.nav {
+  padding: 5px;
+}
+
+.nav-options {
+  color: seagreen;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  background-color: rgb(79, 141, 79);
+  color: white;
+  display: inline;
+  padding: 10px;
+}
+
+#profile-image {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 3px solid lightgreen;
+}
