@@ -28,10 +28,6 @@ header {
   align-content: center;
 }
 
-#pportfolio-section {
-  margin-top: 50px;
-}
-
 h1 {
   color: rgb(79, 141, 79);
   display: inline;
@@ -78,7 +74,8 @@ hr {
 }
 
 .card-width {
-  width: 300px;
+  width: 350px;
+  margin: 20px;
 }
 
 .header-wrap {
