@@ -4,19 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
-}
-.nav {
-  padding: 5px;
-}
-
-.nav-options {
-  color: seagreen;
-}
-
 .container {
   width: 100%;
   margin-bottom: 20px;
+}
+
+#main-section {
+  margin-top: 50px;
 }
 
 h1 {
@@ -33,5 +27,29 @@ h1 {
 }
 
 hr {
-  border: 3px solid lightgreen;
+  border: 3px solid rgb(175, 206, 175);
+}
+
+.footer-edits {
+  color: beige;
+}
+
+.submit-button {
+  background-color: rgb(151, 204, 151);
+  border: 1px solid rgb(151, 204, 151);
+}
+
+.card-width {
+  width: 300px;
+}
+@media screen and (max-width: 640px) {
+  .header-wrap {
+    width: 600px;
+  }
+  #h1,
+  #nav {
+    width: 80%;
+    margin: 5px;
+    float: left;
+  }
 }

@@ -8,11 +8,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Marian's Portfolio - Contact</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header class="container header-wrap">
       <div class="row" class="header">
         <div class="col" class="h1">
           <h1>Marian Gude</h1>
@@ -20,7 +21,7 @@
         <nav class="col">
           <!-- Navigation -->
           <!-- put navigation bootstrap here  -->
-          <ul class="nav justify-content-end" class="nav">
+          <ul class="nav justify-content-end nav">
             <li class="nav-item">
               <a class="nav-link active" href="#">Home</a>
             </li>
@@ -36,19 +37,20 @@
     </header>
 
     <!-- This is where the main section goes  -->
-    <main>
+    <main id="main-section">
       <form class="container">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
+        <hr />
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
           <input
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
-            placeholder="name@example.com"
+            placeholder="name"
           />
         </div>
-        <hr />
+
         <div class="form-group">
           <label for="exampleFormControlInput1">Email</label>
           <input
@@ -67,12 +69,39 @@
             rows="3"
           ></textarea>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" />
+        <input
+          class="btn btn-primary submit-button"
+          type="submit"
+          value="Submit"
+        />
       </form>
     </main>
 
-    <footer>
+    <footer class="container">
       <!-- add a footer  -->
+      <ul class="nav justify-content-center footer-edits">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            href="https://www.linkedin.com/in/mkgude"
+            target="blank"
+            >LinkedIN</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/mkgude" target="blank"
+            >GitHub</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.instagram.com/mkgude/"
+            target="blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
