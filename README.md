@@ -2,6 +2,17 @@ Marian's ReadMe
 
 Using bootstrap to create a mobile responsive portfolio
 
+1. Create and AboutMe page
+2. Create a contact page
+3. Create a portfolio page
+
+Additional
+
+1. Make links usable
+2. Make pages responsive
+3. Make nav bar the same across the board
+4. Responsive Images
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.

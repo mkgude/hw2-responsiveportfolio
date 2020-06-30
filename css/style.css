@@ -6,10 +6,17 @@
 
 header {
   margin-top: 15px;
+  text-transform: lowercase;
+}
+
+.footer-link {
+  color: rgb(179, 192, 179);
 }
 
 .nav-link-edit {
   color: rgb(79, 141, 79);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
 }
 .container {
   width: 100%;
@@ -18,13 +25,25 @@ header {
 
 #main-section {
   margin-top: 50px;
+  align-content: center;
 }
 
 h1 {
-  background-color: rgb(79, 141, 79);
-  color: white;
+  color: rgb(79, 141, 79);
   display: inline;
-  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: rgb(94, 92, 92);
 }
 
 #profile-image {
@@ -33,6 +52,9 @@ h1 {
   height: auto;
 }
 
+.form-text {
+  text-transform: lowercase;
+}
 hr {
   border: 3px solid rgb(175, 206, 175);
 }
@@ -54,7 +76,9 @@ hr {
   height: auto;
   width: 100%;
 }
-@media screen and (max-width: 640px) {
+
+/* special css for small screen  */
+@media screen and (min-width: 576px) {
   .header-wrap {
     width: 600px;
   }
@@ -64,11 +88,19 @@ hr {
     margin: 5px;
     float: left;
   }
-}
 
-@media screen and (max-width: 980) {
+  #main-section {
+    width: 100%;
+  }
+
+  #portfolio-section {
+    width: 100%;
+  }
+}
+/* special css for medium screen  */
+@media screen and (min-width: 768px) {
   .header-wrap {
-    width: 600px;
+    width: 100%;
   }
   #h1,
   #nav {
@@ -80,5 +112,26 @@ hr {
   #h1 {
     background-color: white;
     color: rgb(79, 141, 79);
+  }
+  #main-section {
+    width: 100%;
+  }
+
+  #portfolio-section {
+    width: 100%;
+  }
+}
+
+/* special css for large screen  */
+@media screen and (min-width: 992px) {
+  .header-wrap {
+    width: 100%;
+  }
+  #main-section {
+    width: 100%;
+  }
+
+  #portfolio-section {
+    width: 100%;
   }
 }

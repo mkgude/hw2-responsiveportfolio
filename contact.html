@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <title>Marian's Portfolio - Contact</title>
@@ -45,31 +49,35 @@
 
     <!-- This is where the main section goes  -->
     <main id="main-section">
-      <form class="container">
+      <form class="container" id="form-section">
         <h2>Contact</h2>
         <hr />
         <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+          <label for="exampleFormControlTextarea1" class="form-text"
+            >Name</label
+          >
           <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
+            type="name"
+            class="form-control form-text"
+            id="exampleFormControlTextarea1"
             placeholder="name"
           />
         </div>
-
+        <!-- add a form where it asks for name, email and an area for the message  -->
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email</label>
+          <label for="exampleFormControlInput1" class="form-text">Email</label>
           <input
             type="email"
-            class="form-control"
+            class="form-control form-text"
             id="exampleFormControlInput1"
             placeholder="name@example.com"
           />
         </div>
 
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1" class="form-text"
+            >Message</label
+          >
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
@@ -85,24 +93,27 @@
     </main>
 
     <footer class="container">
-      <!-- add a footer  -->
+      <!-- add a footer - make it sticky and add socialmedia links -->
       <ul class="nav justify-content-center footer-edits">
         <li class="nav-item">
           <a
-            class="nav-link active"
+            class="nav-link active footer-link"
             href="https://www.linkedin.com/in/mkgude"
             target="blank"
             >LinkedIN</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/mkgude" target="blank"
+          <a
+            class="nav-link footer-link"
+            href="https://github.com/mkgude"
+            target="blank"
             >GitHub</a
           >
         </li>
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="nav-link footer-link"
             href="https://www.instagram.com/mkgude/"
             target="blank"
             >Instagram</a
