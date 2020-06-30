@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+header {
+  margin-top: 15px;
+}
+
+.nav-link-edit {
+  color: rgb(79, 141, 79);
+}
 .container {
   width: 100%;
   margin-bottom: 20px;
@@ -42,6 +49,11 @@ hr {
 .card-width {
   width: 300px;
 }
+
+.header-wrap {
+  height: auto;
+  width: 100%;
+}
 @media screen and (max-width: 640px) {
   .header-wrap {
     width: 600px;
@@ -51,5 +63,22 @@ hr {
     width: 80%;
     margin: 5px;
     float: left;
+  }
+}
+
+@media screen and (max-width: 980) {
+  .header-wrap {
+    width: 600px;
+  }
+  #h1,
+  #nav {
+    width: 100%;
+    margin: 5px;
+    float: left;
+  }
+
+  #h1 {
+    background-color: white;
+    color: rgb(79, 141, 79);
   }
 }
