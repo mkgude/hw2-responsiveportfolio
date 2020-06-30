@@ -11,14 +11,26 @@
     <title>Marian's Portfolio - Contact</title>
   </head>
   <body>
-    <!-- this is where the header goes  -->
-    <header class="row">
-      <div class="col">
-        <h1>Marian's Portfolio</h1>
-      </div>
-      <div class="col">
-        <nav>
-          <!-- this is where the nav goes -->
+    <!-- Header -->
+    <header class="container">
+      <div class="row" class="header">
+        <div class="col" class="h1">
+          <h1>Marian Gude</h1>
+        </div>
+        <nav class="col">
+          <!-- Navigation -->
+          <!-- put navigation bootstrap here  -->
+          <ul class="nav justify-content-end" class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -36,6 +48,7 @@
             placeholder="name@example.com"
           />
         </div>
+        <hr />
         <div class="form-group">
           <label for="exampleFormControlInput1">Email</label>
           <input
