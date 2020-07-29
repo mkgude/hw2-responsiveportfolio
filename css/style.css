@@ -57,6 +57,11 @@ p {
   height: auto;
 }
 
+.porfolio-img {
+  height: 179px;
+  border: rgb(136, 134, 134) 1px solid;
+}
+
 .form-text {
   text-transform: lowercase;
 }
@@ -134,7 +139,7 @@ hr {
     width: 100%;
   } */
 
-  /* #portfolio-section {
+/* #portfolio-section {
     width: 100%;
   }
 
@@ -158,5 +163,4 @@ hr {
   .card-width {
     width: 350px;
   }
-} */ */
- */
+} */
