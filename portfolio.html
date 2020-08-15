@@ -1,216 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bring in our bootstrap stylesheet -->
-    <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bring in our bootstrap stylesheet -->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>Marian's Portfolio - Projects</title>
-  </head>
-  <body>
-    <!-- Header from bootstrap with navs-->
-    <header class="header-wrap">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
-        <h1>Marian Gude</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="nav justify-content-end">
-            <li class="nav-item" class="nav-options">
-              <a
-                class="nav-link active nav-link-edit"
-                href="https://mkgude.github.io/hw2-responsiveportfolio/"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item" class="nav-options">
-              <a class="nav-link nav-link-edit" href="portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item" class="nav-options">
-              <a class="nav-link nav-link-edit" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <title>Marian's Portfolio - Projects</title>
+</head>
 
-    <!-- add an area for portfolio links to the different projects from class  -->
-    <main class="container" id="main-section">
-      <h2>Portfolio</h2>
-      <hr />
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card card-width">
-            <a
-              href="https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/"
-              ><img
-                src="Assets/lemons-tree.jpg"
-                class="card-img-top porfolio-img"
-                alt="project 1 joke generator"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">"Inside" Joke</h5>
-              <p class="card-text">
-                Need a laugh? Use our joke generator to get jokes at the drop of
-                a hat!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card card-width">
-            <a href="https://github.com/mkgude/hw10-team-dashboard"
-              ><img
-                src="Assets/lemons-tree.jpg"
-                class="card-img-top porfolio-img"
-                alt="team generator"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">Team Generator</h5>
-              <p class="card-text">
-                Utilize this tool in node.js to generate an html page of your
-                team and their information.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card card-width">
-            <a href="#"
-              ><img
-                src="Assets/lemons-tree.jpg"
-                class="card-img-top porfolio-img"
-                alt="lemons"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">
-                project description
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card card-width">
-            <a href="#"
-              ><img
-                src="Assets/lemons-tree.jpg"
-                class="card-img-top porfolio-img"
-                alt="lemons"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">Project 4</h5>
-              <p class="card-text">
-                project description
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card card-width">
-            <a href="#"
-              ><img
-                src="Assets/lemons-tree.jpg"
-                class="card-img-top porfolio-img"
-                alt="lemons"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">Project 5</h5>
-              <p class="card-text">
-                project description
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card card-width">
-            <img
-              src="Assets/lemons-tree.jpg"
-              class="card-img-top porfolio-img"
-              alt="lemons"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project 6</h5>
-              <p class="card-text">
-                project description
-              </p>
-            </div>
+<body>
+  <!-- Header from bootstrap with navs-->
+  <header class="header-wrap">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header-wrap-2">
+      <h1>Marian Gude</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item" class="nav-options">
+            <a class="nav-link active nav-link-edit" href="https://mkgude.github.io/hw2-responsiveportfolio/">Home</a>
+          </li>
+          <li class="nav-item" class="nav-options">
+            <a class="nav-link nav-link-edit" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item" class="nav-options">
+            <a class="nav-link nav-link-edit" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- add an area for portfolio links to the different projects from class  -->
+  <main class="container" id="main-section">
+    <h2>Portfolio</h2>
+    <hr />
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card card-width">
+          <a href="https://mkgude.github.io/marian-mike-jessica-camrynne-Joke-Factory/"><img
+              src="Assets/lemons-tree.jpg" class="card-img-top porfolio-img" alt="project 1 joke generator" /></a>
+          <div class="card-body">
+            <h5 class="card-title">"Inside" Joke</h5>
+            <p class="card-text">
+              Need a laugh? Use our joke generator to get jokes at the drop of
+              a hat!
+            </p>
           </div>
         </div>
       </div>
-    </main>
-    <footer class="container">
-      <!-- add a footer - make it sticky and add socialmedia links -->
-      <ul class="nav justify-content-center footer-edits">
-        <li class="nav-item">
-          <a
-            class="nav-link active footer-link"
-            href="https://www.linkedin.com/in/mkgude"
-            target="blank"
-            >LinkedIN</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link footer-link"
-            href="https://github.com/mkgude"
-            target="blank"
-            >GitHub</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link footer-link"
-            href="https://www.instagram.com/mkgude/"
-            target="blank"
-            >Instagram</a
-          >
-        </li>
-      </ul>
-    </footer>
-  </body>
+      <div class="col mb-4">
+        <div class="card card-width">
+          <a href="https://github.com/mkgude/hw10-team-dashboard"><img src="Assets/lemons-tree.jpg"
+              class="card-img-top porfolio-img" alt="team generator" /></a>
+          <div class="card-body">
+            <h5 class="card-title">Team Generator</h5>
+            <p class="card-text">
+              Utilize this tool in node.js to generate an html page of your
+              team and their information.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card-width">
+          <a href="https://stormy-dawn-09058.herokuapp.com/"><img src="Assets/lemons-tree.jpg"
+              class="card-img-top porfolio-img" alt="lemons" /></a>
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">
+              Connect with local NonProfits who need assistance with their websites and technology. This is a place for
+              volunteers to share skills and gain experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card-width">
+          <a href="#"><img src="Assets/lemons-tree.jpg" class="card-img-top porfolio-img" alt="lemons" /></a>
+          <div class="card-body">
+            <h5 class="card-title">Project 4</h5>
+            <p class="card-text">
+              project description
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card-width">
+          <a href="#"><img src="Assets/lemons-tree.jpg" class="card-img-top porfolio-img" alt="lemons" /></a>
+          <div class="card-body">
+            <h5 class="card-title">Project 5</h5>
+            <p class="card-text">
+              project description
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card-width">
+          <img src="Assets/lemons-tree.jpg" class="card-img-top porfolio-img" alt="lemons" />
+          <div class="card-body">
+            <h5 class="card-title">Project 6</h5>
+            <p class="card-text">
+              project description
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container">
+    <!-- add a footer - make it sticky and add socialmedia links -->
+    <ul class="nav justify-content-center footer-edits">
+      <li class="nav-item">
+        <a class="nav-link active footer-link" href="https://www.linkedin.com/in/mkgude" target="blank">LinkedIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link footer-link" href="https://github.com/mkgude" target="blank">GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link footer-link" href="https://www.instagram.com/mkgude/" target="blank">Instagram</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
 </html>
